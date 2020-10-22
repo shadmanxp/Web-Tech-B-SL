@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donation</title>
+	<style>
+	.red {
+	  color: red;
+	} 
+	.change {
+	   text-align: left;
+	   width:0px;
+	   margin-left: 50px;
+	} 
+	.align label{
+	  display: inline-block;
+	  width: 200px;
+	  text-align: right;
+	  padding-top: 5px; 
+	}​
+	.margin50{
+		 margin-right: 50px;
+
+	</style>
+</head>
+<body style="background-color:#e4e7ed;">
+<p ><span class="red">*</span> - Denotes Required Information</p>
+<p ><b>> 1 Donation</b><span class="margin50"></span> > 2 Confirmation <span class="margin50"></span> >Thank you!</p>
+<h3 style="font-size:22px;"><span class="red">Donor Information</span></h3>
+
+<form ><b>
+<div class="align">
+  <label for="fname" >First name<span class="red">*</span></label>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name<span class="red">*</span></label>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="Company">Company</label>
+  <input type="text" id="Company" name="Company" value=""><br>
+  <label for="address1">Address 1<span class="red">*</span></label>
+  <input type="text" id="address1" name="address1" value=""><br>
+  <label for="address2">Address 2<span class="red">*</span></label>
+  <input type="text" id="address2" name="address2" value=""><br>
+  <label for="city">City<span class="red">*</span></label>
+  <input type="text" id="city" name="city" value=""><br>
+
+  <label for="states">State<span class="red">*</span></label>
+  <select id="states" name="states" value="0">
+  	<option value="0">Select a state</option>
+    <option value="1">Dhaka</option>
+    <option value="2">Sylhet</option>
+    <option value="3">Khulna</option>
+    <option value="4">Chittagong</option>
+    <option value="5">Barishal</option>
+  </select><br>
+
+  <label for="zip">Zip Code<span class="red">*</span></label>
+  <input type="text" id="zip" name="zip" value=""><br>
+
+  <label for="county">Country<span class="red">*</span></label>
+  <select id="country" name="country" value="0">
+  	<option value="0">Select a country</option>
+    <option value="1">Bangldesh</option>
+    <option value="2">India</option>
+    <option value="3">Singapore</option>
+    <option value="4">USA</option>
+    <option value="5">Canada</option>
+  </select><br>
+
+  <label for="phone">Phone</label>
+  <input type="text" id="phone" name="phone" value=""><br>
+  <label for="fax">Fax</label>
+  <input type="text" id="fax" name="fax" value=""><br>
+  <label for="email">Email<span class="red">*</span></label>
+  <input type="text" id="email" name="email" value=""><br>
+</b>
+  <label style="width: 650px;" ><b>Donation Amount <span class="red">*</span>
+  <input type="radio" id="none" name="none" value="0">
+  <label for="none" style="width: 50px;text-align: left;">None</label>
+  <input type="radio" id="50" name="50" value="50">
+  <label for="50" style="width: 50px;text-align: left;">50$</label>
+  <input type="radio" id="75" name="75" value="75">
+  <label for="75" style="width: 50px;text-align: left;">75$</label>
+  <input type="radio" id="100" name="100" value="100">
+  <label for="100" style="width: 50px;text-align: left;">100$</label>
+  <input type="radio" id="250" name="250" value="100">
+  <label for="250" style="width: 50px;text-align: left;">250$</label>
+  <input type="radio" id="other" name="other" value="other">
+  <label for="other" style="width: 50px;text-align: left;">other</label></b></br>
+</label></br>
+<label  style="width: 200px;">
+  (Check a button or type in your amount)
+</label>
+  <label for="other" style="text-align: left; padding-top:0px; width: 120px;" ><b>Other Amount</b> $<span class="red">*</span></label>
+  <input type="text" id="other" name="email" value="" ><br>
+
+  <input type="checkbox" id="nt" name="int value="int">
+  <label for="int" style="width: 200px";> I am interested in giving on a regular basis</label><br>
+
+
+</div>
+</form>
+
+</body>
+</html>
