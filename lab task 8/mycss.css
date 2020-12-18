@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+}
+.stretchview
+{
+	margin: 0px;
+  	padding: 0px;
+}
+.headerpadding 
+{
+	padding: 2px;
+}
+.header
+{
+	background-color: #f2f2f2;
+	background-attachment: fixed;
+	background-blend-mode: screen;
+	background-size: 100%;
+	padding: 0;
+}
+.headerh1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:40px;
+	font-weight: 600;
+	display: inline;
+}
+.headerdropdown
+{
+	display: none;
+}
+.headerdisplaynone
+{
+	display: inline-block;
+}
+.nav .nav-link
+{
+	color: #28a745;
+	font-weight: 400;
+}
+.nav a:hover
+{
+	background-color:  white;
+	color: #ff6666;
+	font-weight: 500;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+	background-color: white;
+	color:  #ff6666;
+	font-weight: 500;
+}
+.bodytrim
+{
+	padding: 0;
+	margin: 0;
+}
+.hidesmallnav
+{
+	display: none;
+}
+@media (max-width: 576px) 
+{
+	.headerdisplaynone{ display: none; }
+	.hidelargenav{ display: none; }
+	.hidesmallnav{  display: inline;  }
+  	.headerdropdown { display: inline-block; }
+  	.nav .flex-column .nav-pills
+  	{
+  		display: inline;
+  	}
+}
+.loginbackground
+{
+	background-color: #f2f2f2;
+}
+.divider
+{
+	color: #ff6666;
+	background-color: #393932;
+	padding: 0;
+	text-align: center;
+	font-size: 15px;
+}
+.footer
+{
+	color: white;
+	background-color: #393932;
+	padding: 0;
+	text-align: center;
+	padding: 10px;
+}
+.error
+{
+	color:red;
+}
+
+
